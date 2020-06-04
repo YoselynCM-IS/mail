@@ -40,8 +40,8 @@ $imagen = preg_replace('#^data:image/[^;]+;base64,#', '', $imagen);
 
 $mensaje = '<b>English Aware 1</b><br><b>Student name: </b>'.$ea1_regNA.'<br><b>Group: </b> '.$ea1_regGP.'<br><b>Teacher: </b>'.$ea1_regND;
 
-$para = "jabocho@gmail.com"
-$para2 = "jabocho@gmail.com"
+$para = "jabocho@gmail.com";
+$para2 = "jabocho@gmail.com";
 $asunto = 'English Aware 1: Activity';				
 //Create a new PHPMailer instance
 $mail = new PHPMailer();
