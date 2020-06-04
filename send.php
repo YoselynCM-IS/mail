@@ -53,14 +53,15 @@ $mensaje .= '<br><img src="https://majesticeducacion.com.mx/nuevo/wp-content/upl
  
 //Configuracion servidor mail
 
-$mail->From = "test@lgruiz.com"; //remitente
+$mail->From = "ebook@majesticeducacion.com.mx"; //remitente
 $mail->FromName = "Majestic Education";//nombre remitente
 $mail->SMTPAuth = true;
 $mail->SMTPSecure = 'ssl'; //seguridad
-$mail->Host = "servidor1313.il.controladordns.com"; // servidor smtp
+$mail->Host = "mail.majesticeducacion.com.mx"; // servidor smtp
 $mail->Port = 465; //puerto
-$mail->Username ='test@lgruiz.com'; //nombre usuario
-$mail->Password = 'u1Y2dp0[WIP~'; //contraseña
+$mail->Username ='ebook@majesticeducacion.com.mx'; //nombre usuario
+$mail->Password = 'Q[ioa2]lHg^h'; //contraseña
+
 
 
 
