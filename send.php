@@ -84,7 +84,7 @@ if ($mail->Send()) {
 } else {
 	echo $mail->ErrorInfo;
     echo'<script type="text/javascript">
-           alert("Not sent, try again");
+           alert("Not sent, try again V1.2");
         </script>';
 }
 ?>
